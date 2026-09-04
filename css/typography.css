@@ -1,0 +1,149 @@
+/* Editorial Typography System */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body {
+  font-family: var(--font-body);
+}
+
+.font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Oversized Editorial Headings */
+.editorial-hero-title {
+  font-family: var(--font-display);
+  font-size: clamp(3rem, 7.8vw, 7.6rem);
+  font-weight: 800;
+  line-height: 0.94;
+  letter-spacing: -0.045em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.editorial-section-title {
+  font-family: var(--font-display);
+  font-size: clamp(2.75rem, 6.8vw, 6.2rem);
+  font-weight: 800;
+  line-height: 0.92;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: var(--text-primary);
+}
+
+.editorial-section-title.is-inverse {
+  color: var(--text-inverse);
+}
+
+.editorial-huge-watermark {
+  font-family: var(--font-display);
+  font-size: clamp(5rem, 16vw, 15rem);
+  font-weight: 900;
+  line-height: 0.8;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.03);
+  user-select: none;
+  pointer-events: none;
+  position: absolute;
+  z-index: 0;
+}
+
+.editorial-huge-watermark.is-inverse {
+  color: rgba(255, 255, 255, 0.035);
+}
+
+/* Section Eyebrow Meta */
+.section-eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+.section-eyebrow.is-inverse {
+  color: var(--text-inverse-muted);
+}
+
+.section-eyebrow .eyebrow-index {
+  color: var(--accent-lime);
+  font-weight: 700;
+}
+
+.section-eyebrow .eyebrow-pip {
+  width: 6px;
+  height: 6px;
+  border-radius: var(--radius-full);
+  background-color: var(--accent-lime);
+  display: inline-block;
+  box-shadow: 0 0 8px var(--accent-lime);
+}
+
+/* Subheadings & Paragraphs */
+.section-lead {
+  font-size: clamp(1.15rem, 1.8vw, 1.45rem);
+  font-weight: 400;
+  line-height: 1.45;
+  letter-spacing: -0.015em;
+  color: var(--text-secondary);
+  max-width: 680px;
+}
+
+.section-lead.is-inverse {
+  color: var(--text-inverse-muted);
+}
+
+.editorial-subhead {
+  font-family: var(--font-display);
+  font-size: clamp(1.5rem, 2.5vw, 2.25rem);
+  font-weight: 700;
+  line-height: 1.15;
+  letter-spacing: -0.025em;
+  color: var(--text-primary);
+}
+
+/* Badges & Tags */
+.mono-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  background-color: rgba(0, 0, 0, 0.04);
+  color: var(--text-primary);
+  border: 1px solid var(--border-light);
+  transition: all var(--trans-fast);
+}
+
+.mono-tag:hover {
+  border-color: var(--border-strong);
+  background-color: var(--bg-card);
+}
+
+.mono-tag.is-lime {
+  background-color: var(--accent-lime-subtle);
+  border-color: var(--accent-lime-border);
+  color: #0E0E10;
+  font-weight: 600;
+}
+
+.mono-tag.is-dark {
+  background-color: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.12);
+  color: var(--text-inverse);
+}
+
+.mono-tag.is-dark:hover {
+  border-color: var(--accent-lime);
+  color: var(--accent-lime);
+}

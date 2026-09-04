@@ -1,0 +1,159 @@
+/* Responsive Layout Rules & Breakpoints */
+
+/* Tablet & Mobile Navigation Breakpoint */
+@media (max-width: 991px) {
+  .header-nav, .header-actions .btn-magnetic {
+    display: none;
+  }
+
+  .mobile-menu-toggle {
+    display: flex;
+  }
+
+  .hero-sub-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .about-section-container {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .about-photo-card {
+    position: static;
+    max-width: 480px;
+    margin: 0 auto;
+  }
+
+  .project-case-study,
+  .project-case-study:nth-child(even) {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .project-case-study:nth-child(even) .project-meta-col {
+    order: 1;
+  }
+
+  .project-case-study:nth-child(even) .project-visual-col {
+    order: 2;
+  }
+
+  .service-row {
+    grid-template-columns: 50px 1fr 40px;
+    gap: 1.25rem;
+  }
+
+  .service-desc {
+    grid-column: 2 / span 2;
+    padding-top: 0.5rem;
+  }
+
+  .app-medicine-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .app-sidebar {
+    display: none;
+  }
+
+  .app-image-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .crypto-terminal-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .crypto-controls {
+    grid-column: 1;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .analyzer-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .payment-mockup-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Mobile Devices (<= 640px) */
+@media (max-width: 640px) {
+  :root {
+    --container-pad: 1.25rem;
+    --section-pad-y: 4.5rem;
+  }
+
+  .hero-footer-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+
+  .about-grid-metrics {
+    grid-template-columns: 1fr;
+  }
+
+  .stack-categories-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .journey-roadmap {
+    grid-template-columns: 1fr;
+  }
+
+  .social-links-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .footer-top-row {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .footer-bottom-row {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .back-to-top-btn {
+    bottom: 1.25rem;
+    right: 1.25rem;
+    width: 42px;
+    height: 42px;
+  }
+
+  .btn-magnetic {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .project-actions {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .project-actions .btn-magnetic {
+    width: 100%;
+  }
+
+  .window-body {
+    padding: 1rem;
+  }
+}
+
+/* Touch Device Rules - Disable Custom Cursor on Touch */
+@media (hover: none) and (pointer: coarse), (max-width: 1024px) {
+  .custom-cursor {
+    display: none !important;
+  }
+  body, button, a, input, textarea {
+    cursor: auto !important;
+  }
+}
