@@ -1,0 +1,1369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DAKSHU — Daksh Sharma | Python Developer &amp; Aspiring AI Engineer</title>
+  <meta name="description" content="Production-grade developer portfolio of Daksh Sharma (DAKSHU). Python Developer, Aspiring AI Engineer, and B.Tech CSE student building practical software.">
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+
+  <!-- Google Fonts: Space Grotesk, Inter, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/typography.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/sections.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Desktop Custom Magnetic Cursor -->
+  <div class="custom-cursor" aria-hidden="true">
+    <div class="custom-cursor-dot"></div>
+    <div class="custom-cursor-ring">
+      <span class="custom-cursor-text"></span>
+    </div>
+  </div>
+
+  <!-- Preloader Screen -->
+  <div class="site-preloader" aria-label="Loading Dakshu Portfolio">
+    <div class="preloader-top">
+      <span>DAKSH SHARMA</span>
+      <span>PORTFOLIO 2026</span>
+    </div>
+    <div class="preloader-center">
+      <h1 class="preloader-brand-title">DAKSHU<span class="lime-dot">.</span></h1>
+    </div>
+    <div class="preloader-bottom">
+      <div class="section-eyebrow is-inverse">
+        <span class="eyebrow-pip"></span>
+        <span>INITIALIZING SYSTEM</span>
+      </div>
+      <div class="preloader-counter">00</div>
+    </div>
+    <div class="preloader-progress-track">
+      <div class="preloader-progress-bar"></div>
+    </div>
+  </div>
+
+  <!-- Site Fixed Navigation -->
+  <header class="site-header">
+    <div class="header-inner">
+      <div class="header-brand">
+        <a href="#hero" class="brand-logo" data-cursor="HOME">
+          <span>DAKSHU</span>
+          <span class="brand-dot"></span>
+        </a>
+        <div class="header-status-pill">
+          <span class="eyebrow-pip"></span>
+          <span>DELHI <span class="delhi-live-clock">18:55:00 IST</span></span>
+        </div>
+      </div>
+
+      <nav class="header-nav" aria-label="Primary Navigation">
+        <a href="#about" class="nav-link" data-cursor="ABOUT">About</a>
+        <a href="#work" class="nav-link" data-cursor="WORK">Selected Work</a>
+        <a href="#stack" class="nav-link" data-cursor="STACK">Tech Stack</a>
+        <a href="#services" class="nav-link" data-cursor="BUILD">What I Build</a>
+        <a href="#journey" class="nav-link" data-cursor="JOURNEY">Journey</a>
+        <a href="#contact" class="nav-link" data-cursor="CONTACT">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="sound-toggle-btn" aria-label="Toggle Audio Feedback" title="Toggle Audio Feedback" data-cursor="AUDIO">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5"></polygon><path d="M19.07 4.93a10 10 0 0 1 0 14.14M15.54 8.46a5 5 0 0 1 0 7.07"></path></svg>
+        </button>
+
+        <a href="#contact" class="btn-magnetic btn-primary" data-cursor="TALK">
+          <span>LET'S TALK</span>
+          <span class="btn-icon-circle">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="icon-arrow-diagonal"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </span>
+        </a>
+
+        <button class="mobile-menu-toggle" aria-label="Open Mobile Navigation">
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Fullscreen Mobile Navigation Drawer -->
+  <div class="mobile-drawer" aria-hidden="true">
+    <div class="mobile-drawer-header">
+      <div class="brand-logo">
+        <span>DAKSHU</span>
+        <span class="brand-dot"></span>
+      </div>
+      <button class="mobile-drawer-close" aria-label="Close Mobile Navigation">&times;</button>
+    </div>
+
+    <div class="mobile-drawer-links">
+      <a href="#hero" class="mobile-drawer-link">01. Home</a>
+      <a href="#about" class="mobile-drawer-link">02. About</a>
+      <a href="#work" class="mobile-drawer-link">03. Work</a>
+      <a href="#stack" class="mobile-drawer-link">04. Tech Stack</a>
+      <a href="#services" class="mobile-drawer-link">05. What I Build</a>
+      <a href="#journey" class="mobile-drawer-link">06. Journey</a>
+      <a href="#contact" class="mobile-drawer-link">07. Contact</a>
+    </div>
+
+    <div class="mobile-drawer-footer">
+      <div class="section-eyebrow is-inverse">
+        <span class="eyebrow-pip"></span>
+        <span>DAKSH SHARMA · DELHI, INDIA</span>
+      </div>
+    </div>
+  </div>
+
+  <main id="main-content">
+
+    <!-- HERO SECTION -->
+    <section id="hero" class="section-wrapper hero-section">
+      <div class="hero-status-tag reveal-fade-up">
+        <div class="mono-tag is-lime">
+          <span class="eyebrow-pip"></span>
+          <span>AVAILABLE FOR OPPORTUNITIES &amp; COLLABORATION</span>
+        </div>
+      </div>
+
+      <div class="hero-main-content">
+        <div class="hero-title-group reveal-fade-up">
+          <h1 class="editorial-hero-title">BUILDING SOFTWARE.</h1>
+          <h1 class="editorial-hero-title">LEARNING AI.</h1>
+          <h1 class="editorial-hero-title" style="color: var(--text-secondary);">CREATING WHAT'S NEXT.</h1>
+        </div>
+
+        <div class="hero-sub-grid reveal-fade-up">
+          <div class="hero-roles-col">
+            <div class="section-eyebrow" style="margin-bottom: 0.85rem;">
+              <span class="eyebrow-index">[ 00 / IDENTITY ]</span>
+              <span>DAKSH SHARMA · DAKSHU</span>
+            </div>
+            <div class="hero-roles">
+              <span class="mono-tag">Python Developer</span>
+              <span class="mono-tag">Aspiring AI Engineer</span>
+              <span class="mono-tag">B.Tech CSE Student</span>
+            </div>
+          </div>
+
+          <div class="hero-description-block">
+            <p class="section-lead">
+              Engineering practical desktop applications, automation utilities, and security algorithms with Python while actively exploring Machine Learning, Artificial Intelligence, and Data Structures.
+            </p>
+            <div class="hero-actions">
+              <a href="#work" class="btn-magnetic btn-primary" data-cursor="EXPLORE">
+                <span>EXPLORE WORK</span>
+                <span class="btn-icon-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+                </span>
+              </a>
+
+              <a href="https://github.com/dakshcrafts" target="_blank" rel="noopener noreferrer" class="btn-magnetic btn-outline" data-cursor="GITHUB">
+                <span>GITHUB PROFILE</span>
+                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon-arrow-diagonal"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-footer-bar reveal-fade-up">
+        <div class="scroll-indicator-pill">
+          <div class="scroll-wheel-icon"></div>
+          <span>SCROLL TO EXPLORE</span>
+        </div>
+        <div>
+          <span>5+ VERIFIED REPOSITORIES</span> &nbsp;·&nbsp; <span>DELHI, IN</span> &nbsp;·&nbsp; <span>B.TECH CSE '26</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="section-wrapper">
+      <div class="editorial-huge-watermark" style="top: 2rem; right: 0;">ABOUT</div>
+
+      <div class="about-section-container">
+        <!-- Left: Authentic Profile Photo Card -->
+        <div class="about-photo-card reveal-fade-up">
+          <div class="about-image-wrapper">
+            <img src="assets/images/profile.jpg" alt="Daksh Sharma (DAKSHU) Portrait" class="about-profile-image" loading="lazy">
+            <div class="photo-badge-overlay">
+              <span>DAKSH SHARMA</span>
+              <span style="color: var(--accent-lime); font-weight: 700;">DAKSHU</span>
+            </div>
+          </div>
+          <div class="about-photo-meta">
+            <div class="section-eyebrow">
+              <span class="eyebrow-pip"></span>
+              <span>28.6139° N, 77.2090° E · DELHI, INDIA</span>
+            </div>
+            <div class="mono-tag is-lime" style="justify-content: center; margin-top: 0.25rem;">
+              <span>B.TECH CSE · R.D. ENGINEERING COLLEGE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Editorial Narrative -->
+        <div class="about-story-col">
+          <div class="about-header-group reveal-fade-up">
+            <div class="section-eyebrow">
+              <span class="eyebrow-index">[ 01 / PROFILE ]</span>
+              <span>ABOUT DAKSH SHARMA</span>
+            </div>
+            <h2 class="editorial-section-title">I BUILD PRACTICAL SOFTWARE &amp; EXPLORE INTELLIGENT SYSTEMS.</h2>
+          </div>
+
+          <div class="about-story-paragraphs reveal-fade-up">
+            <p class="section-lead" style="margin-bottom: 1.5rem;">
+              I am a Python developer and B.Tech Computer Science &amp; Engineering student at R.D. Engineering College in Delhi, India. I focus on building dependable software solutions that solve real problems.
+            </p>
+            <p style="color: var(--text-secondary); margin-bottom: 1.5rem; line-height: 1.7;">
+              My engineering work centers on Python desktop applications, GUI development with Tkinter, relational database architecture using MySQL, automation utilities, and cryptography logic. Every application I design emphasizes clean architecture, modularity, and intuitive user experiences.
+            </p>
+            <p style="color: var(--text-secondary); line-height: 1.7;">
+              I am actively expanding my capabilities in Data Structures &amp; Algorithms, NumPy computational arrays, and Machine Learning theory, aiming to engineer impactful Artificial Intelligence systems.
+            </p>
+          </div>
+
+          <div class="about-quote-card reveal-fade-up">
+            <div class="about-quote-text">“Learn, Build, Improve, Repeat.”</div>
+            <span class="section-eyebrow" style="margin-top: 0.5rem;">— CORE ENGINEERING MOTTO</span>
+          </div>
+
+          <!-- Quick Fact Grid -->
+          <div class="about-grid-metrics reveal-fade-up">
+            <div class="about-metric-tile">
+              <span class="tile-title">Current Academic Status</span>
+              <span class="tile-value">B.Tech CSE @ R.D. Engineering College</span>
+            </div>
+            <div class="about-metric-tile">
+              <span class="tile-title">Core Engineering Focus</span>
+              <span class="tile-value">Python, Desktop GUIs &amp; Database Systems</span>
+            </div>
+            <div class="about-metric-tile">
+              <span class="tile-title">Active Learning Target</span>
+              <span class="tile-value">Data Structures, ML &amp; AI Systems</span>
+            </div>
+            <div class="about-metric-tile">
+              <span class="tile-title">Key Interests</span>
+              <span class="tile-value">Automation, Open Source, Problem Solving</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SELECTED WORK / PROJECTS SECTION -->
+    <section id="work" class="section-wrapper">
+      <div class="editorial-huge-watermark" style="top: 2rem; left: 0;">WORK</div>
+
+      <div class="projects-header-block reveal-fade-up">
+        <div>
+          <div class="section-eyebrow">
+            <span class="eyebrow-index">[ 02 / SELECTED WORK ]</span>
+            <span>VERIFIED REPOSITORY CASE STUDIES (05)</span>
+          </div>
+          <h2 class="editorial-section-title">BUILT FOR THE REAL WORLD.</h2>
+        </div>
+        <p class="section-lead" style="max-width: 480px;">
+          Real projects crafted with Python, Tkinter, MySQL, Pillow, and web standards. Test them live inside the interactive mockups.
+        </p>
+      </div>
+
+      <div class="projects-showcase-list">
+
+        <!-- PROJECT 01: Medicine Reminder (Featured) -->
+        <article class="project-case-study" id="case-study-medicine">
+          <div class="project-meta-col">
+            <div class="project-number-tag">01 / FEATURED DESKTOP APPLICATION</div>
+            <h3 class="project-title">Medicine Reminder</h3>
+            <div class="project-tags-list">
+              <span class="mono-tag is-lime">Python</span>
+              <span class="mono-tag">Tkinter GUI</span>
+              <span class="mono-tag">MySQL</span>
+              <span class="mono-tag">mysql-connector</span>
+            </div>
+            <p style="color: var(--text-secondary); line-height: 1.65;">
+              A Python desktop application engineered to help users organize medication schedules, automate timed desktop reminders, and synchronize dosage records with a MySQL relational database.
+            </p>
+            <div class="project-feature-bullets">
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>User authentication &amp; secure session management</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Custom dosage &amp; timed medicine scheduling</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Automated audio/visual reminder popups</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Persistent MySQL database sync &amp; history logs</span>
+              </div>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/dakshcrafts/medicine-reminder-python" target="_blank" rel="noopener noreferrer" class="btn-magnetic btn-primary" data-cursor="GITHUB">
+                <span>VIEW REPOSITORY</span>
+                <span class="btn-icon-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </span>
+              </a>
+              <span class="mono-tag" style="border: none; color: var(--text-muted);">Click cards in preview to test toggle</span>
+            </div>
+          </div>
+
+          <div class="project-visual-col">
+            <!-- Interactive Desktop Window Mockup -->
+            <div class="mockup-window" id="mockup-medicine" data-cursor="INTERACT">
+              <div class="window-titlebar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                </div>
+                <div class="window-title">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                  <span>MedicineReminder.py — Tkinter &amp; MySQL</span>
+                </div>
+                <div class="window-actions">
+                  <div class="window-badge-live">
+                    <span class="live-pulse"></span>
+                    <span>LIVE GUI</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="window-body">
+                <div class="app-medicine-layout">
+                  <aside class="app-sidebar">
+                    <div class="sidebar-patient">
+                      <div class="patient-avatar">DS</div>
+                      <div class="patient-info">
+                        <h4>Daksh Sharma</h4>
+                        <p>ID: #MED-2026-99</p>
+                      </div>
+                    </div>
+                    <div class="app-nav-list">
+                      <div class="app-nav-item is-active">
+                        <span>📅 Today's Schedule</span>
+                        <span class="mono-tag is-lime" style="padding: 0.1rem 0.4rem;">4</span>
+                      </div>
+                      <div class="app-nav-item">
+                        <span>💊 Medicine Cabinet</span>
+                      </div>
+                      <div class="app-nav-item">
+                        <span>📊 Dosage History</span>
+                      </div>
+                      <div class="app-nav-item">
+                        <span>🗄️ MySQL Database</span>
+                      </div>
+                    </div>
+                    <div class="mono-tag" style="font-size: 0.65rem; justify-content: center;">
+                      <span>🟢 DB: Connected</span>
+                    </div>
+                  </aside>
+
+                  <div class="app-main-content">
+                    <div class="app-status-bar">
+                      <div>
+                        <strong style="font-size: 0.85rem;">Daily Dosage Schedule</strong>
+                        <p style="font-size: 0.72rem; color: var(--text-muted);">Click any pill to toggle taken/pending state</p>
+                      </div>
+                      <span class="mono-tag is-lime pill-taken-count">2/4 Taken Today</span>
+                    </div>
+
+                    <div class="pill-schedule-grid">
+                      <div class="pill-card is-taken" data-cursor="CLICK">
+                        <div class="pill-card-top">
+                          <span class="pill-name">Amoxicillin</span>
+                          <span class="pill-badge badge-taken">TAKEN</span>
+                        </div>
+                        <div class="pill-dosage">500mg · Capsule</div>
+                        <div class="pill-time">⏰ 08:00 AM (Morning)</div>
+                      </div>
+
+                      <div class="pill-card is-taken" data-cursor="CLICK">
+                        <div class="pill-card-top">
+                          <span class="pill-name">Vitamin D3</span>
+                          <span class="pill-badge badge-taken">TAKEN</span>
+                        </div>
+                        <div class="pill-dosage">1000 IU · Softgel</div>
+                        <div class="pill-time">⏰ 12:30 PM (Noon)</div>
+                      </div>
+
+                      <div class="pill-card" data-cursor="CLICK">
+                        <div class="pill-card-top">
+                          <span class="pill-name">Paracetamol</span>
+                          <span class="pill-badge badge-pending">PENDING</span>
+                        </div>
+                        <div class="pill-dosage">650mg · Tablet</div>
+                        <div class="pill-time">⏰ 08:00 PM (Evening)</div>
+                      </div>
+
+                      <div class="pill-card" data-cursor="CLICK">
+                        <div class="pill-card-top">
+                          <span class="pill-name">Omega 3 Fish Oil</span>
+                          <span class="pill-badge badge-pending">PENDING</span>
+                        </div>
+                        <div class="pill-dosage">1000mg · Capsule</div>
+                        <div class="pill-time">⏰ 10:00 PM (Night)</div>
+                      </div>
+                    </div>
+
+                    <div class="alarm-test-banner">
+                      <div>
+                        <strong style="font-size: 0.82rem;">Desktop Reminder Service</strong>
+                        <p style="font-size: 0.7rem; color: #A0A0AA;">Tkinter Alarm Thread is active</p>
+                      </div>
+                      <button class="alarm-test-btn" data-cursor="ALARM">Trigger Test Alarm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- PROJECT 02: Image Processing Toolkit -->
+        <article class="project-case-study" id="case-study-image-toolkit">
+          <div class="project-meta-col">
+            <div class="project-number-tag">02 / COMPUTER VISION &amp; GRAPHICS UTILITY</div>
+            <h3 class="project-title">Image Processing Toolkit</h3>
+            <div class="project-tags-list">
+              <span class="mono-tag is-lime">Python</span>
+              <span class="mono-tag">Tkinter</span>
+              <span class="mono-tag">Pillow / PIL</span>
+              <span class="mono-tag">NumPy</span>
+            </div>
+            <p style="color: var(--text-secondary); line-height: 1.65;">
+              A graphical image processing suite built in Python featuring real-time image transformations, contrast/brightness adjustments, custom filters (blur, sharpen, invert, grayscale), crop/rotate, and live preview rendering.
+            </p>
+            <div class="project-feature-bullets">
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Real-time canvas image matrix transformations</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Pillow &amp; NumPy pixel-level operations</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Custom filter suite (Grayscale, Invert, Blur, Sharpen, Sepia)</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Aspect-ratio preserving crop, rotate &amp; flip tools</span>
+              </div>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/dakshcrafts/image-processing-toolkit" target="_blank" rel="noopener noreferrer" class="btn-magnetic btn-primary" data-cursor="GITHUB">
+                <span>VIEW REPOSITORY</span>
+                <span class="btn-icon-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </span>
+              </a>
+              <span class="mono-tag" style="border: none; color: var(--text-muted);">Adjust sliders in mockup to test filters</span>
+            </div>
+          </div>
+
+          <div class="project-visual-col">
+            <!-- Interactive Image Processing Studio Mockup -->
+            <div class="mockup-window is-dark" id="mockup-image-toolkit" data-cursor="ADJUST">
+              <div class="window-titlebar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                </div>
+                <div class="window-title">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="14.31" y1="8" x2="20.05" y2="17.94"></line><line x1="9.69" y1="8" x2="21.17" y2="8"></line><line x1="7.38" y1="12" x2="13.12" y2="2.06"></line></svg>
+                  <span>ImageToolkit_GUI.py — Pillow &amp; NumPy</span>
+                </div>
+                <div class="window-actions">
+                  <div class="window-badge-live">
+                    <span class="live-pulse"></span>
+                    <span>LIVE CANVAS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="window-body">
+                <div class="app-image-layout">
+                  <div class="image-canvas-container">
+                    <img id="interactive-toolkit-image" src="assets/images/profile.jpg" alt="Interactive Filter Preview Canvas" class="interactive-preview-canvas">
+                    <div class="canvas-meta-overlay">
+                      <span id="canvas-filter-readout">B:100% C:100% B:0px [NORMAL]</span>
+                      <span>RGB / 1024x1024</span>
+                    </div>
+                  </div>
+
+                  <div class="image-controls-panel">
+                    <div>
+                      <span class="section-eyebrow" style="font-size: 0.65rem;">PRESET FILTERS</span>
+                      <div class="filter-preset-buttons" style="margin-top: 0.4rem;">
+                        <button class="filter-btn is-active" data-filter="normal" data-cursor="FILTER">Normal</button>
+                        <button class="filter-btn" data-filter="grayscale" data-cursor="FILTER">Grayscale</button>
+                        <button class="filter-btn" data-filter="invert" data-cursor="FILTER">Invert (PIL)</button>
+                        <button class="filter-btn" data-filter="sharpen" data-cursor="FILTER">Sharpen</button>
+                        <button class="filter-btn" data-filter="sepia" data-cursor="FILTER">Sepia</button>
+                      </div>
+                    </div>
+
+                    <div class="slider-group">
+                      <div class="slider-label">
+                        <span>Brightness</span>
+                        <span>0 - 200%</span>
+                      </div>
+                      <input type="range" min="20" max="180" value="100" id="slider-brightness" class="custom-range-slider" data-cursor="SLIDE">
+                    </div>
+
+                    <div class="slider-group">
+                      <div class="slider-label">
+                        <span>Contrast</span>
+                        <span>0 - 200%</span>
+                      </div>
+                      <input type="range" min="20" max="180" value="100" id="slider-contrast" class="custom-range-slider" data-cursor="SLIDE">
+                    </div>
+
+                    <div class="slider-group">
+                      <div class="slider-label">
+                        <span>Blur (Gaussian)</span>
+                        <span>0 - 8px</span>
+                      </div>
+                      <input type="range" min="0" max="8" value="0" id="slider-blur" class="custom-range-slider" data-cursor="SLIDE">
+                    </div>
+
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 0.45rem;">
+                      <button id="btn-rotate-img" class="filter-btn" data-cursor="ROTATE">⟳ Rotate 90°</button>
+                      <button id="btn-flip-img" class="filter-btn" data-cursor="FLIP">⇄ Flip Horiz</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- PROJECT 03: Encryption & Decryption System -->
+        <article class="project-case-study" id="case-study-encryption">
+          <div class="project-meta-col">
+            <div class="project-number-tag">03 / SECURITY &amp; CRYPTOGRAPHY</div>
+            <h3 class="project-title">Encryption &amp; Decryption System</h3>
+            <div class="project-tags-list">
+              <span class="mono-tag is-lime">Python</span>
+              <span class="mono-tag">MySQL</span>
+              <span class="mono-tag">ASCII Logic</span>
+              <span class="mono-tag">OTP Verification</span>
+            </div>
+            <p style="color: var(--text-secondary); line-height: 1.65;">
+              A cryptographic system implementing custom character transformations, ASCII-based mapping, time-sensitive OTP verification cycles, and secure database persistence with MySQL.
+            </p>
+            <div class="project-feature-bullets">
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Custom character &amp; ASCII-based transformations</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Time-based OTP verification logic</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Multi-pass cipher encoding and decoding routines</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Structured MySQL database audit logging</span>
+              </div>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/dakshcrafts/encryption-decryption-python" target="_blank" rel="noopener noreferrer" class="btn-magnetic btn-primary" data-cursor="GITHUB">
+                <span>VIEW REPOSITORY</span>
+                <span class="btn-icon-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </span>
+              </a>
+              <span class="mono-tag" style="border: none; color: var(--text-muted);">Type below to test live cipher output</span>
+            </div>
+          </div>
+
+          <div class="project-visual-col">
+            <!-- Interactive Crypto Console Mockup -->
+            <div class="mockup-window is-dark" id="mockup-encryption" data-cursor="CIPHER">
+              <div class="window-titlebar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                </div>
+                <div class="window-title">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                  <span>CipherCore.py — Custom ASCII &amp; OTP Engine</span>
+                </div>
+                <div class="window-actions">
+                  <div class="window-badge-live">
+                    <span class="live-pulse"></span>
+                    <span>LIVE CRYPTO</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="window-body">
+                <div class="crypto-terminal-layout">
+                  <div class="crypto-pane">
+                    <div class="crypto-pane-title">
+                      <span>Plaintext Input</span>
+                      <span class="mono-tag is-dark" style="font-size: 0.6rem;">UTF-8</span>
+                    </div>
+                    <textarea id="crypto-input-text" class="crypto-textarea" placeholder="Type text to encrypt..." data-cursor="TYPE">DAKSH_SECURE_PAYLOAD_2026</textarea>
+                  </div>
+
+                  <div class="crypto-pane">
+                    <div class="crypto-pane-title">
+                      <span style="color: var(--accent-lime);">Encrypted Stream</span>
+                      <span id="crypto-shift-val" class="mono-tag is-lime" style="font-size: 0.6rem;">Shift: +7</span>
+                    </div>
+                    <div id="crypto-output-stream" class="crypto-output-stream">KHSZO_ZLJBYL_WHFSHHK_2026</div>
+                  </div>
+
+                  <div class="crypto-controls">
+                    <div style="display: flex; align-items: center; gap: 1rem;">
+                      <span style="font-size: 0.72rem; font-family: var(--font-mono); color: #A0A0AA;">Shift Offset:</span>
+                      <input type="range" min="1" max="25" value="7" id="crypto-shift-slider" class="custom-range-slider" style="width: 120px;" data-cursor="SLIDE">
+                    </div>
+
+                    <div class="otp-box">
+                      <span style="font-size: 0.72rem; font-family: var(--font-mono); color: #A0A0AA;">Time-Based OTP:</span>
+                      <span id="crypto-otp-code" class="otp-code">849201</span>
+                      <button id="crypto-gen-otp-btn" class="filter-btn" style="padding: 0.3rem 0.6rem;" data-cursor="GENERATE">Generate OTP</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- PROJECT 04: Student Result Analyzer -->
+        <article class="project-case-study" id="case-study-analyzer">
+          <div class="project-meta-col">
+            <div class="project-number-tag">04 / ACADEMIC ANALYTICS &amp; AUTOMATION</div>
+            <h3 class="project-title">Student Result Analyzer</h3>
+            <div class="project-tags-list">
+              <span class="mono-tag is-lime">Python</span>
+              <span class="mono-tag">Data Analysis</span>
+              <span class="mono-tag">File Parsing</span>
+              <span class="mono-tag">Statistical Metrics</span>
+            </div>
+            <p style="color: var(--text-secondary); line-height: 1.65;">
+              A Python data utility engineered to parse academic mark datasets, compute statistical performance metrics (mean, median, GPA), analyze grade distributions, and generate structured analytical reports.
+            </p>
+            <div class="project-feature-bullets">
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Automated batch score computation &amp; ranking</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Statistical analysis (Mean, Median, Highest, Lowest)</span>
+              </div>
+              <div class="project-feature-bullet">
+                <span class="bullet-pip"></span>
+                <span>Dynamic GPA calculation and categorical grading</span>
+              </div>
+            </div>
+            <div class="project-actions">
+              <a href="https://github.com/dakshcrafts/student-result-analyzer" target="_blank" rel="noopener noreferrer" class="btn-magnetic btn-primary" data-cursor="GITHUB">
+                <span>VIEW REPOSITORY</span>
+                <span class="btn-icon-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-visual-col">
+            <!-- Interactive Analytics Dashboard Mockup -->
+            <div class="mockup-window" id="mockup-analyzer" data-cursor="METRICS">
+              <div class="window-titlebar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                </div>
+                <div class="window-title">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+                  <span>ResultAnalyzer.py — Academic Statistics</span>
+                </div>
+                <div class="window-actions">
+                  <div class="window-badge-live">
+                    <span class="live-pulse"></span>
+                    <span>ANALYTICS</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="window-body">
+                <div class="analyzer-layout">
+                  <div class="analyzer-chart-box">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                      <strong style="font-size: 0.8rem;">Subject Score Distribution</strong>
+                      <span class="mono-tag is-lime" style="font-size: 0.65rem;">Batch: 2026 CSE</span>
+                    </div>
+
+                    <div class="chart-bars-container">
+                      <div class="chart-bar-item">
+                        <span class="val-py chart-bar-label">94%</span>
+                        <div class="chart-bar-fill bar-fill-py is-highest" style="height: 94%;"></div>
+                        <span class="chart-bar-label">Python</span>
+                      </div>
+                      <div class="chart-bar-item">
+                        <span class="val-dsa chart-bar-label">88%</span>
+                        <div class="chart-bar-fill bar-fill-dsa" style="height: 88%;"></div>
+                        <span class="chart-bar-label">DSA</span>
+                      </div>
+                      <div class="chart-bar-item">
+                        <span class="val-db chart-bar-label">85%</span>
+                        <div class="chart-bar-fill bar-fill-db" style="height: 85%;"></div>
+                        <span class="chart-bar-label">DBMS</span>
+                      </div>
+                      <div class="chart-bar-item">
+                        <span class="val-math chart-bar-label">92%</span>
+                        <div class="chart-bar-fill bar-fill-math" style="height: 92%;"></div>
+                        <span class="chart-bar-label">Math</span>
+                      </div>
+                      <div class="chart-bar-item">
+                        <span class="val-os chart-bar-label">86%</span>
+                        <div class="chart-bar-fill bar-fill-os" style="height: 86%;"></div>
+                        <span class="chart-bar-label">OS</span>
+                      </div>
+                    </div>
+
+                    <!-- Subject Score Sliders -->
+                    <div style="display: flex; flex-direction: column; gap: 0.4rem;">
+                      <div class="slider-label" style="font-size: 0.68rem;">
+                        <span>Python Programming Score:</span>
+                        <span class="val-py">94%</span>
+                      </div>
+                      <input type="range" min="50" max="100" value="94" class="custom-range-slider subject-score-slider" data-subject="py" data-cursor="SLIDE">
+
+                      <div class="slider-label" style="font-size: 0.68rem;">
+                        <span>DSA Score:</span>
+                        <span class="val-dsa">88%</span>
+                      </div>
+                      <input type="range" min="50" max="100" value="88" class="custom-range-slider subject-score-slider" data-subject="dsa" data-cursor="SLIDE">
+
+                      <div class="slider-label" style="font-size: 0.68rem;">
+                        <span>DBMS Score:</span>
+                        <span class="val-db">85%</span>
+                      </div>
+                      <input type="range" min="50" max="100" value="85" class="custom-range-slider subject-score-slider" data-subject="db" data-cursor="SLIDE">
+
+                      <div class="slider-label" style="font-size: 0.68rem;">
+                        <span>Mathematics Score:</span>
+                        <span class="val-math">92%</span>
+                      </div>
+                      <input type="range" min="50" max="100" value="92" class="custom-range-slider subject-score-slider" data-subject="math" data-cursor="SLIDE">
+
+                      <div class="slider-label" style="font-size: 0.68rem;">
+                        <span>Operating Systems Score:</span>
+                        <span class="val-os">86%</span>
+                      </div>
+                      <input type="range" min="50" max="100" value="86" class="custom-range-slider subject-score-slider" data-subject="os" data-cursor="SLIDE">
+                    </div>
+                  </div>
+
+                  <div class="analyzer-metrics-grid">
+                    <div class="metric-card">
+                      <div class="metric-label">Calculated GPA</div>
+                      <div id="analyzer-gpa-val" class="metric-value" style="color: var(--accent-lime); background: #0E0E10; padding: 0.2rem 0.5rem; border-radius: 4px;">8.90 / 10</div>
+                    </div>
+                    <div class="metric-card">
+                      <div class="metric-label">Aggregate Percentage</div>
+                      <div id="analyzer-pct-val" class="metric-value">89.0%</div>
+                    </div>
+                    <div class="metric-card">
+                      <div class="metric-label">Assigned Grade</div>
+                      <div id="analyzer-grade-val" class="metric-value">A+</div>
+                    </div>
+                    <div class="metric-card">
+                      <div class="metric-label">Academic Status</div>
+                      <div class="metric-value" style="font-size: 1.1rem; color: #27C93F;">PASS (HONORS)</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+
+        <!-- PROJECT 05: Payment Form Interface -->
+        <article class="project-case-study" id="case-study-payment">
+          <div class="project-meta-col">
+            <div class="project-number-tag">05 / FRONTEND WEB COMPONENT</div>
+            <h3 class="project-title">Payment Form Interface</h3>
+            <div class="project-tags-list">
+              <span class="mono-tag is-lime">HTML5</span>
+              <span class="mono-tag">CSS3</span>
+              <span class="mono-tag">Responsive Design</span>
+              <span class="mono-tag">Form UI</span>
+            </div>
+            <p style="color: var(--text-secondary); line-height: 1.65;">
+              A clean, accessible payment form interface engineered with semantic HTML and modern CSS styling, featuring responsive field layout and dynamic card synchronization.
+            </p>
+            <div class="project-actions">
+              <a href="https://github.com/dakshcrafts/Payment-Foam" target="_blank" rel="noopener noreferrer" class="btn-magnetic btn-primary" data-cursor="GITHUB">
+                <span>VIEW REPOSITORY</span>
+                <span class="btn-icon-circle">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                </span>
+              </a>
+            </div>
+          </div>
+
+          <div class="project-visual-col">
+            <!-- Interactive Payment Mockup -->
+            <div class="mockup-window" id="mockup-payment-form" data-cursor="FORM">
+              <div class="window-titlebar">
+                <div class="window-dots">
+                  <span class="window-dot dot-red"></span>
+                  <span class="window-dot dot-yellow"></span>
+                  <span class="window-dot dot-green"></span>
+                </div>
+                <div class="window-title">
+                  <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="4" width="22" height="16" rx="2" ry="2"></rect><line x1="1" y1="10" x2="23" y2="10"></line></svg>
+                  <span>PaymentForm.html — HTML &amp; CSS</span>
+                </div>
+                <div class="window-actions">
+                  <div class="window-badge-live">
+                    <span class="live-pulse"></span>
+                    <span>WEB UI</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="window-body">
+                <div class="payment-mockup-layout">
+                  <div class="payment-card-visual">
+                    <div style="display: flex; justify-content: space-between; align-items: center;">
+                      <div class="card-chip"></div>
+                      <span style="font-family: var(--font-mono); font-size: 0.75rem; color: var(--accent-lime); font-weight: 700;">DAKSHU PAY</span>
+                    </div>
+                    <div id="card-display-number" class="card-number-display">•••• •••• •••• 4242</div>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-end;">
+                      <div>
+                        <span style="font-size: 0.55rem; color: #8E8E96; display: block;">CARDHOLDER</span>
+                        <span id="card-display-name" class="card-holder-display">DAKSH SHARMA</span>
+                      </div>
+                      <div>
+                        <span style="font-size: 0.55rem; color: #8E8E96; display: block;">EXPIRES</span>
+                        <span id="card-display-expiry" style="font-family: var(--font-mono); font-size: 0.75rem;">12/28</span>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+                    <input type="text" id="payment-input-num" placeholder="Card Number (e.g. 4532...)" class="crypto-textarea" style="height: 38px;" data-cursor="TYPE">
+                    <div style="display: grid; grid-template-columns: 1.5fr 1fr; gap: 0.5rem;">
+                      <input type="text" id="payment-input-name" placeholder="Name on Card" class="crypto-textarea" style="height: 38px;" data-cursor="TYPE">
+                      <input type="text" id="payment-input-exp" placeholder="MM/YY" class="crypto-textarea" style="height: 38px;" data-cursor="TYPE">
+                    </div>
+                    <button class="btn-magnetic btn-primary" style="padding: 0.6rem; font-size: 0.8rem; width: 100%;" data-cursor="CLICK">Submit Form</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- TECH STACK SECTION (Obsidian Dark) -->
+    <section id="stack" class="section-wrapper is-full-width section-dark-bg">
+      <div style="max-width: var(--container-max); margin: 0 auto; padding: var(--section-pad-y) var(--container-pad);">
+        <div class="editorial-huge-watermark is-inverse" style="top: 2rem; right: 0;">STACK</div>
+
+        <div class="stack-section-inner">
+          <div class="reveal-fade-up">
+            <div class="section-eyebrow is-inverse">
+              <span class="eyebrow-index">[ 03 / CAPABILITIES ]</span>
+              <span>HONEST TECHNICAL TOOLKIT</span>
+            </div>
+            <h2 class="editorial-section-title is-inverse">TECHNOLOGY STACK.</h2>
+            <p class="section-lead is-inverse" style="margin-top: 1rem;">
+              Categorized by genuine capability — strictly reflecting technologies used in actual projects and active research.
+            </p>
+          </div>
+
+          <div class="stack-categories-grid">
+            <!-- Category 1 -->
+            <div class="stack-category-card reveal-fade-up">
+              <div class="stack-category-header">
+                <span class="stack-category-title">Core &amp; Languages</span>
+                <span class="stack-tier-pill tier-primary">PRIMARY</span>
+              </div>
+              <div class="stack-items-list">
+                <span class="stack-pill-item" data-cursor="SKILL">🐍 Python</span>
+                <span class="stack-pill-item" data-cursor="SKILL">⚙️ C Programming</span>
+                <span class="stack-pill-item" data-cursor="SKILL">🌐 HTML5</span>
+                <span class="stack-pill-item" data-cursor="SKILL">🎨 CSS3</span>
+                <span class="stack-pill-item" data-cursor="SKILL">⚡ JavaScript</span>
+              </div>
+            </div>
+
+            <!-- Category 2 -->
+            <div class="stack-category-card reveal-fade-up">
+              <div class="stack-category-header">
+                <span class="stack-category-title">Libraries &amp; GUI</span>
+                <span class="stack-tier-pill tier-working">WORKING WITH</span>
+              </div>
+              <div class="stack-items-list">
+                <span class="stack-pill-item" data-cursor="SKILL">🖥️ Tkinter Desktop GUI</span>
+                <span class="stack-pill-item" data-cursor="SKILL">🔢 NumPy</span>
+                <span class="stack-pill-item" data-cursor="SKILL">🖼️ Pillow (PIL)</span>
+                <span class="stack-pill-item" data-cursor="SKILL">🔌 mysql-connector-python</span>
+              </div>
+            </div>
+
+            <!-- Category 3 -->
+            <div class="stack-category-card reveal-fade-up">
+              <div class="stack-category-header">
+                <span class="stack-category-title">Database &amp; Storage</span>
+                <span class="stack-tier-pill tier-primary">PRIMARY</span>
+              </div>
+              <div class="stack-items-list">
+                <span class="stack-pill-item" data-cursor="SKILL">🐬 MySQL</span>
+                <span class="stack-pill-item" data-cursor="SKILL">🗄️ Relational Schemas</span>
+                <span class="stack-pill-item" data-cursor="SKILL">📜 SQL Querying</span>
+              </div>
+            </div>
+
+            <!-- Category 4 -->
+            <div class="stack-category-card reveal-fade-up">
+              <div class="stack-category-header">
+                <span class="stack-category-title">Developer Tools</span>
+                <span class="stack-tier-pill tier-primary">PRIMARY</span>
+              </div>
+              <div class="stack-items-list">
+                <span class="stack-pill-item" data-cursor="SKILL">🌿 Git Version Control</span>
+                <span class="stack-pill-item" data-cursor="SKILL">🐙 GitHub</span>
+                <span class="stack-pill-item" data-cursor="SKILL">💻 VS Code</span>
+                <span class="stack-pill-item" data-cursor="SKILL">⌨️ Windows Terminal</span>
+              </div>
+            </div>
+
+            <!-- Category 5 -->
+            <div class="stack-category-card reveal-fade-up" style="border-color: rgba(0, 145, 255, 0.3);">
+              <div class="stack-category-header">
+                <span class="stack-category-title">Active Research &amp; Learning</span>
+                <span class="stack-tier-pill tier-exploring">EXPLORING / LEARNING</span>
+              </div>
+              <div class="stack-items-list">
+                <span class="stack-pill-item" data-cursor="LEARNING">🧠 Data Structures &amp; Algorithms</span>
+                <span class="stack-pill-item" data-cursor="LEARNING">🤖 Machine Learning Fundamentals</span>
+                <span class="stack-pill-item" data-cursor="LEARNING">🔬 Artificial Intelligence Systems</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- SERVICES / WHAT I BUILD -->
+    <section id="services" class="section-wrapper">
+      <div class="editorial-huge-watermark" style="top: 2rem; left: 0;">BUILD</div>
+
+      <div class="reveal-fade-up" style="margin-bottom: 3.5rem;">
+        <div class="section-eyebrow">
+          <span class="eyebrow-index">[ 04 / DISCIPLINES ]</span>
+          <span>AREAS OF DEVELOPMENT</span>
+        </div>
+        <h2 class="editorial-section-title">WHAT I BUILD.</h2>
+      </div>
+
+      <div class="services-list">
+        <div class="service-row reveal-fade-up" data-cursor="VIEW">
+          <span class="service-number">01</span>
+          <h3 class="service-title">PYTHON DEVELOPMENT</h3>
+          <p class="service-desc">Crafting modular scripts, data manipulation workflows, backend logic, and structured problem solving with Python.</p>
+          <div class="service-arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </div>
+        </div>
+
+        <div class="service-row reveal-fade-up" data-cursor="VIEW">
+          <span class="service-number">02</span>
+          <h3 class="service-title">DESKTOP APPLICATIONS</h3>
+          <p class="service-desc">Engineering full-fledged GUI desktop software with Tkinter, local state management, and MySQL database integration.</p>
+          <div class="service-arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </div>
+        </div>
+
+        <div class="service-row reveal-fade-up" data-cursor="VIEW">
+          <span class="service-number">03</span>
+          <h3 class="service-title">AUTOMATION &amp; TOOLING</h3>
+          <p class="service-desc">Building image manipulation utilities, file parsers, analytical report generators, and productivity tools.</p>
+          <div class="service-arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </div>
+        </div>
+
+        <div class="service-row reveal-fade-up" data-cursor="VIEW">
+          <span class="service-number">04</span>
+          <h3 class="service-title">SECURE DATA SYSTEMS</h3>
+          <p class="service-desc">Developing custom cryptographic routines, ASCII transformations, time-sensitive OTP verification, and relational database integrity.</p>
+          <div class="service-arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </div>
+        </div>
+
+        <div class="service-row reveal-fade-up" data-cursor="VIEW">
+          <span class="service-number">05</span>
+          <h3 class="service-title">AI &amp; ML EXPLORATION</h3>
+          <p class="service-desc">Deepening foundational knowledge in machine learning mathematics, NumPy matrix computations, and intelligent system architectures.</p>
+          <div class="service-arrow-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- LEARNING JOURNEY -->
+    <section id="journey" class="section-wrapper">
+      <div class="editorial-huge-watermark" style="top: 2rem; right: 0;">JOURNEY</div>
+
+      <div class="reveal-fade-up">
+        <div class="section-eyebrow">
+          <span class="eyebrow-index">[ 05 / MILESTONES ]</span>
+          <span>PROGRESSION &amp; ROADMAP</span>
+        </div>
+        <h2 class="editorial-section-title">LEARNING JOURNEY.</h2>
+        <p class="section-lead" style="margin-top: 1rem;">
+          A transparent overview of academic foundations, completed engineering milestones, and forward-looking research goals.
+        </p>
+      </div>
+
+      <div class="journey-roadmap">
+        <div class="journey-milestone-card reveal-fade-up">
+          <div class="journey-card-top">
+            <span class="journey-step-num">01</span>
+            <span class="journey-status-tag">ACADEMIC FOUNDATION</span>
+          </div>
+          <h4 class="journey-card-title">B.Tech Computer Science &amp; Engineering</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            Enrolled at R.D. Engineering College, building strong computer science principles, discrete mathematics, and object-oriented programming.
+          </p>
+        </div>
+
+        <div class="journey-milestone-card reveal-fade-up">
+          <div class="journey-card-top">
+            <span class="journey-step-num">02</span>
+            <span class="journey-status-tag">SPECIALIZATION</span>
+          </div>
+          <h4 class="journey-card-title">Python &amp; Procedural Logic</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            Gaining practical competence in Python, writing maintainable modules, automation scripts, and custom data processing workflows.
+          </p>
+        </div>
+
+        <div class="journey-milestone-card reveal-fade-up">
+          <div class="journey-card-top">
+            <span class="journey-step-num">03</span>
+            <span class="journey-status-tag">COMPLETED APPS</span>
+          </div>
+          <h4 class="journey-card-title">Desktop GUIs &amp; MySQL</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            Engineered full desktop applications (Medicine Reminder, Image Toolkit, Encryption System) with Tkinter and relational MySQL storage.
+          </p>
+        </div>
+
+        <div class="journey-milestone-card reveal-fade-up">
+          <div class="journey-card-top">
+            <span class="journey-step-num">04</span>
+            <span class="journey-status-tag">ACTIVE FOCUS</span>
+          </div>
+          <h4 class="journey-card-title">Data Structures &amp; Algorithms</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            Practicing algorithmic problem solving, time &amp; space complexity optimization, tree/graph traversals, and dynamic programming.
+          </p>
+        </div>
+
+        <div class="journey-milestone-card reveal-fade-up">
+          <div class="journey-card-top">
+            <span class="journey-step-num">05</span>
+            <span class="journey-status-tag" style="background: var(--accent-lime); color: #0E0E10; font-weight: 800;">CURRENT TARGET</span>
+          </div>
+          <h4 class="journey-card-title">Machine Learning Fundamentals</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            Exploring statistical learning theory, linear algebra for ML, data preprocessing pipelines, and high-speed array operations with NumPy.
+          </p>
+        </div>
+
+        <div class="journey-milestone-card reveal-fade-up">
+          <div class="journey-card-top">
+            <span class="journey-step-num">06</span>
+            <span class="journey-status-tag">VISION</span>
+          </div>
+          <h4 class="journey-card-title">Artificial Intelligence Engineering</h4>
+          <p style="font-size: 0.85rem; color: var(--text-secondary); line-height: 1.5;">
+            Aspiring to design production-grade intelligent systems and actively contribute to global open-source software projects.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- GITHUB & OPEN SOURCE HUB (Dark Section) -->
+    <section id="github" class="section-wrapper is-full-width section-dark-bg">
+      <div style="max-width: var(--container-max); margin: 0 auto; padding: var(--section-pad-y) var(--container-pad);">
+        <div class="editorial-huge-watermark is-inverse" style="top: 2rem; left: 0;">CODE</div>
+
+        <div class="github-hub-card reveal-fade-up">
+          <div class="github-hub-header">
+            <div>
+              <div class="section-eyebrow is-inverse">
+                <span class="eyebrow-index">[ 06 / OPEN SOURCE ]</span>
+                <span>GITHUB REPOSITORY ARCHIVE</span>
+              </div>
+              <h2 class="editorial-section-title is-inverse" style="margin-top: 0.5rem;">CODE. BUILD. COMMIT. REPEAT.</h2>
+              <p class="section-lead is-inverse" style="margin-top: 0.85rem;">
+                Explore all verified public repositories maintained by Daksh Sharma under <code>@dakshcrafts</code>.
+              </p>
+            </div>
+
+            <a href="https://github.com/dakshcrafts" target="_blank" rel="noopener noreferrer" class="btn-magnetic btn-lime" data-cursor="GITHUB">
+              <span>VIEW GITHUB PROFILE</span>
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+            </a>
+          </div>
+
+          <!-- Public Repositories Grid -->
+          <div class="repos-archive-grid">
+            <a href="https://github.com/dakshcrafts/medicine-reminder-python" target="_blank" rel="noopener noreferrer" class="repo-mini-card" data-cursor="OPEN">
+              <div class="repo-card-name">
+                <span>📁 medicine-reminder-python</span>
+                <span class="mono-tag is-lime" style="font-size: 0.6rem;">Python</span>
+              </div>
+              <p class="repo-card-desc">Python desktop application to manage medicines and timed reminders with MySQL database.</p>
+            </a>
+
+            <a href="https://github.com/dakshcrafts/image-processing-toolkit" target="_blank" rel="noopener noreferrer" class="repo-mini-card" data-cursor="OPEN">
+              <div class="repo-card-name">
+                <span>📁 image-processing-toolkit</span>
+                <span class="mono-tag is-lime" style="font-size: 0.6rem;">Python</span>
+              </div>
+              <p class="repo-card-desc">Interactive GUI image processing toolkit using Tkinter, Pillow/PIL, and NumPy.</p>
+            </a>
+
+            <a href="https://github.com/dakshcrafts/encryption-decryption-python" target="_blank" rel="noopener noreferrer" class="repo-mini-card" data-cursor="OPEN">
+              <div class="repo-card-name">
+                <span>📁 encryption-decryption-python</span>
+                <span class="mono-tag is-lime" style="font-size: 0.6rem;">Python</span>
+              </div>
+              <p class="repo-card-desc">Cryptographic system with custom ASCII transforms, OTP verification, and MySQL integration.</p>
+            </a>
+
+            <a href="https://github.com/dakshcrafts/student-result-analyzer" target="_blank" rel="noopener noreferrer" class="repo-mini-card" data-cursor="OPEN">
+              <div class="repo-card-name">
+                <span>📁 student-result-analyzer</span>
+                <span class="mono-tag is-lime" style="font-size: 0.6rem;">Python</span>
+              </div>
+              <p class="repo-card-desc">Academic dataset analysis tool in Python for student score metrics and grade distribution.</p>
+            </a>
+
+            <a href="https://github.com/dakshcrafts/Payment-Foam" target="_blank" rel="noopener noreferrer" class="repo-mini-card" data-cursor="OPEN">
+              <div class="repo-card-name">
+                <span>📁 Payment-Foam</span>
+                <span class="mono-tag" style="font-size: 0.6rem; background: rgba(255,255,255,0.1); color:#FFF;">HTML/CSS</span>
+              </div>
+              <p class="repo-card-desc">A clean responsive payment form webpage for checkout and card details entry.</p>
+            </a>
+
+            <a href="https://github.com/dakshcrafts/dakshcrafts" target="_blank" rel="noopener noreferrer" class="repo-mini-card" data-cursor="OPEN">
+              <div class="repo-card-name">
+                <span>📁 dakshcrafts</span>
+                <span class="mono-tag" style="font-size: 0.6rem; background: rgba(255,255,255,0.1); color:#FFF;">Config</span>
+              </div>
+              <p class="repo-card-desc">Daksh Sharma GitHub profile overview and personal markdown portfolio repository.</p>
+            </a>
+
+            <a href="https://github.com/dakshcrafts/github-readme-stats" target="_blank" rel="noopener noreferrer" class="repo-mini-card is-fork" data-cursor="FORK">
+              <div class="repo-card-name">
+                <span>🍴 github-readme-stats</span>
+                <span class="mono-tag" style="font-size: 0.6rem; background: rgba(255,255,255,0.06); color:#888;">Fork</span>
+              </div>
+              <p class="repo-card-desc">Dynamically generated GitHub stats for readmes (Forked from anuraghazra/github-readme-stats).</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- CONTACT & CONNECT SECTION -->
+    <section id="contact" class="section-wrapper">
+      <div class="contact-section-inner">
+        <div class="reveal-fade-up">
+          <div class="section-eyebrow">
+            <span class="eyebrow-index">[ 07 / CONNECT ]</span>
+            <span>OPEN FOR OPPORTUNITIES</span>
+          </div>
+          <h2 class="contact-headline">LET'S BUILD<br>SOMETHING.</h2>
+          <p class="section-lead" style="margin-top: 1.5rem;">
+            Have an idea, project, collaboration, or want to discuss Python, Data Structures, or AI? Connect through any verified channel below.
+          </p>
+        </div>
+
+        <div class="social-links-grid reveal-fade-up">
+          <!-- GitHub -->
+          <a href="https://github.com/dakshcrafts" target="_blank" rel="noopener noreferrer" class="social-connect-card" data-cursor="VISIT">
+            <div class="social-card-left">
+              <span class="social-network-name">GitHub</span>
+              <span class="social-handle-text">dakshcrafts</span>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+
+          <!-- LinkedIn -->
+          <a href="https://linkedin.com/in/dakshcrafts" target="_blank" rel="noopener noreferrer" class="social-connect-card" data-cursor="VISIT">
+            <div class="social-card-left">
+              <span class="social-network-name">LinkedIn</span>
+              <span class="social-handle-text">Daksh Sharma</span>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+
+          <!-- Instagram -->
+          <a href="https://instagram.com/dakshcrafts" target="_blank" rel="noopener noreferrer" class="social-connect-card" data-cursor="VISIT">
+            <div class="social-card-left">
+              <span class="social-network-name">Instagram</span>
+              <span class="social-handle-text">@dakshcrafts</span>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+
+          <!-- X (Twitter) -->
+          <a href="https://x.com/dakshcrafts" target="_blank" rel="noopener noreferrer" class="social-connect-card" data-cursor="VISIT">
+            <div class="social-card-left">
+              <span class="social-network-name">X (Twitter)</span>
+              <span class="social-handle-text">@dakshcrafts</span>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+
+          <!-- YouTube -->
+          <a href="https://youtube.com/@dakshcrafts" target="_blank" rel="noopener noreferrer" class="social-connect-card" data-cursor="VISIT">
+            <div class="social-card-left">
+              <span class="social-network-name">YouTube</span>
+              <span class="social-handle-text">@dakshcrafts</span>
+            </div>
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+          </a>
+        </div>
+
+        <div class="reveal-fade-up" style="display: flex; gap: 1rem; align-items: center; flex-wrap: wrap;">
+          <button class="btn-magnetic btn-outline" data-copy="dakshcrafts" data-cursor="COPY">
+            <span>COPY GITHUB USERNAME</span>
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="footer-top-row">
+      <div>
+        <div class="brand-logo" style="font-size: 1.8rem;">
+          <span>DAKSHU</span>
+          <span class="brand-dot"></span>
+        </div>
+        <p style="color: var(--text-secondary); margin-top: 0.5rem; font-size: 0.85rem;">
+          Daksh Sharma — Python Developer &amp; Aspiring AI Engineer
+        </p>
+      </div>
+
+      <div style="display: flex; gap: 2.5rem; flex-wrap: wrap;">
+        <div>
+          <span class="section-eyebrow" style="font-size: 0.65rem;">LOCATION</span>
+          <p style="font-size: 0.85rem; font-weight: 600; margin-top: 0.35rem;">Delhi, India</p>
+        </div>
+        <div>
+          <span class="section-eyebrow" style="font-size: 0.65rem;">LOCAL TIME</span>
+          <p class="delhi-live-clock" style="font-size: 0.85rem; font-weight: 600; font-family: var(--font-mono); margin-top: 0.35rem;">--:--:-- IST</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom-row">
+      <div>
+        <span>&copy; <span class="current-year-display">2026</span> DAKSH SHARMA (DAKSHU). ALL RIGHTS RESERVED.</span>
+      </div>
+      <div>
+        <span class="section-eyebrow">
+          <span class="eyebrow-pip"></span>
+          <span>LEARN · BUILD · IMPROVE · REPEAT</span>
+        </span>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Interactive Back to Top Widget -->
+  <button class="back-to-top-btn" aria-label="Back to Top" title="Back to Top" data-cursor="TOP">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+
+  <!-- Medicine Reminder Alarm Popup Simulation -->
+  <div id="medicine-alarm-modal" class="toast-notification" style="bottom: 3.5rem; transform: translateX(-50%) scale(0.95); width: min(420px, 90vw); flex-direction: column; align-items: flex-start; gap: 0.85rem; padding: 1.25rem; border-radius: var(--radius-md); background: #0E0E10; border: 1.5px solid var(--accent-lime);">
+    <div style="display: flex; align-items: center; justify-content: space-between; width: 100%;">
+      <div style="display: flex; align-items: center; gap: 0.5rem;">
+        <span class="eyebrow-pip"></span>
+        <strong style="color: var(--accent-lime); font-family: var(--font-mono); font-size: 0.8rem;">⏰ MEDICINE REMINDER ALARM</strong>
+      </div>
+      <span class="mono-tag is-lime" style="font-size: 0.6rem;">SCHEDULED</span>
+    </div>
+    <div style="font-size: 0.85rem; color: #FFFFFF;">
+      Time for <strong>Paracetamol (650mg)</strong>. Take 1 tablet after food with water.
+    </div>
+    <div style="display: flex; gap: 0.5rem; width: 100%; margin-top: 0.25rem;">
+      <button id="alarm-take-btn" class="btn-magnetic btn-lime" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; flex: 1;">Mark as Taken</button>
+      <button id="alarm-dismiss-btn" class="btn-magnetic btn-outline is-dark" style="padding: 0.45rem 0.9rem; font-size: 0.75rem; flex: 1;">Snooze (10m)</button>
+    </div>
+  </div>
+
+
+  <!-- Toast Notification System -->
+  <div class="toast-notification" role="alert" aria-live="polite">
+    <span class="toast-pip"></span>
+    <span class="toast-text">Notification message</span>
+  </div>
+
+
+  <!-- JavaScript Application Entry -->
+  <script type="module" src="js/app.js"></script>
+</body>
+</html>
