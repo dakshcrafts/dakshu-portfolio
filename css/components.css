@@ -52,7 +52,7 @@ body.cursor-hover .custom-cursor-ring {
   width: 72px;
   height: 72px;
   border-color: var(--accent-lime);
-  background-color: rgba(196, 240, 0, 0.15);
+  background-color: rgba(225, 29, 46, 0.15);
   backdrop-filter: blur(2px);
 }
 
@@ -61,7 +61,7 @@ body.cursor-hover-solid .custom-cursor-ring {
   height: 80px;
   background-color: var(--accent-lime);
   border-color: transparent;
-  box-shadow: 0 0 25px rgba(196, 240, 0, 0.4);
+  box-shadow: 0 0 25px rgba(225, 29, 46, 0.4);
 }
 
 body.cursor-hover-solid .custom-cursor-dot {
@@ -195,13 +195,13 @@ body.cursor-dark .custom-cursor-ring {
 
 .btn-lime {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
   border: 1px solid var(--accent-lime);
 }
 
 .btn-lime:hover {
   background-color: var(--accent-lime-hover);
-  box-shadow: 0 4px 20px rgba(196, 240, 0, 0.45);
+  box-shadow: 0 4px 20px rgba(225, 29, 46, 0.45);
   transform: translateY(-2px);
 }
 
@@ -339,7 +339,7 @@ body.cursor-dark .custom-cursor-ring {
   gap: 0.4rem;
   padding: 0.2rem 0.55rem;
   border-radius: var(--radius-full);
-  background-color: rgba(196, 240, 0, 0.15);
+  background-color: rgba(225, 29, 46, 0.15);
   font-family: var(--font-mono);
   font-size: 0.65rem;
   font-weight: 700;
@@ -490,7 +490,7 @@ body.cursor-dark .custom-cursor-ring {
 
 .pill-card.is-taken {
   background-color: #FAFAFA;
-  border-color: rgba(196, 240, 0, 0.4);
+  border-color: rgba(225, 29, 46, 0.4);
 }
 
 .pill-card-top {
@@ -532,7 +532,7 @@ body.cursor-dark .custom-cursor-ring {
 
 .pill-badge.badge-taken {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
 }
 
 .pill-badge.badge-pending {
@@ -553,7 +553,7 @@ body.cursor-dark .custom-cursor-ring {
 
 .alarm-test-btn {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
   padding: 0.45rem 0.9rem;
   border-radius: var(--radius-full);
   font-size: 0.75rem;
@@ -767,7 +767,7 @@ body.cursor-dark .custom-cursor-ring {
   font-weight: 800;
   letter-spacing: 0.2em;
   color: var(--accent-lime);
-  background: rgba(196, 240, 0, 0.12);
+  background: rgba(225, 29, 46, 0.12);
   padding: 0.3rem 0.75rem;
   border-radius: var(--radius-sm);
   border: 1px dashed var(--accent-lime);
@@ -930,9 +930,9 @@ body.cursor-dark .custom-cursor-ring {
 
 .back-to-top-btn:hover {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
   transform: translateY(-4px);
-  box-shadow: 0 8px 25px rgba(196, 240, 0, 0.4);
+  box-shadow: 0 8px 25px rgba(225, 29, 46, 0.4);
 }
 
 /* Toast Notifications */
@@ -956,7 +956,7 @@ body.cursor-dark .custom-cursor-ring {
   visibility: hidden;
   transition: all 0.35s var(--ease-out-expo);
   box-shadow: var(--shadow-lg);
-  border: 1px solid rgba(196, 240, 0, 0.3);
+  border: 1px solid rgba(225, 29, 46, 0.3);
 }
 
 .toast-notification.is-active {

@@ -23,15 +23,15 @@
   --text-inverse-muted: #A0A0AA;
 
   /* Accent - High Voltage Electric Lime (Used Sparingly & Deliberately) */
-  --accent-lime: #C4F000;
-  --accent-lime-hover: #D4FF00;
-  --accent-lime-subtle: rgba(196, 240, 0, 0.12);
-  --accent-lime-border: rgba(196, 240, 0, 0.35);
-  --accent-lime-glow: rgba(196, 240, 0, 0.45);
-  --accent-lime-text: #0E0E10;
+  --accent-lime: #E11D2E;
+  --accent-lime-hover: #FF3B47;
+  --accent-lime-subtle: rgba(225, 29, 46, 0.12);
+  --accent-lime-border: rgba(225, 29, 46, 0.35);
+  --accent-lime-glow: rgba(225, 29, 46, 0.45);
+  --accent-lime-text: #FFFFFF;
 
   /* Semantic Alerts / Status */
-  --status-active: #C4F000;
+  --status-active: #E11D2E;
   --status-pending: #FFB800;
   --status-info: #0091FF;
 
@@ -77,7 +77,7 @@
   --shadow-lg: 0 20px 45px -10px rgba(0, 0, 0, 0.09);
   --shadow-window: 0 25px 60px -15px rgba(0, 0, 0, 0.14), 0 10px 20px -5px rgba(0, 0, 0, 0.06);
   --shadow-dark-window: 0 25px 60px -15px rgba(0, 0, 0, 0.65), 0 0 1px 1px rgba(255, 255, 255, 0.1);
-  --shadow-lime: 0 0 20px rgba(196, 240, 0, 0.35);
+  --shadow-lime: 0 0 20px rgba(225, 29, 46, 0.35);
 
   /* Transitions */
   --ease-out-expo: cubic-bezier(0.16, 1, 0.3, 1);

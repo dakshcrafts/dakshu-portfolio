@@ -39,12 +39,12 @@ body {
 
 ::selection {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
 }
 
 ::-moz-selection {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
 }
 
 img, picture, video, canvas, svg {

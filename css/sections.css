@@ -133,7 +133,7 @@
 
 .sound-toggle-btn.is-active {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
   border-color: var(--accent-lime);
 }
 
@@ -577,7 +577,7 @@
 }
 
 .stack-category-card:hover {
-  border-color: rgba(196, 240, 0, 0.4);
+  border-color: rgba(225, 29, 46, 0.4);
   transform: translateY(-4px);
   box-shadow: 0 16px 40px rgba(0, 0, 0, 0.4);
 }
@@ -609,7 +609,7 @@
 
 .tier-primary {
   background-color: var(--accent-lime);
-  color: #0E0E10;
+  color: #FFFFFF;
 }
 
 .tier-working {
@@ -644,7 +644,7 @@
 }
 
 .stack-pill-item:hover {
-  background-color: rgba(196, 240, 0, 0.12);
+  background-color: rgba(225, 29, 46, 0.12);
   border-color: var(--accent-lime);
   color: var(--accent-lime);
 }
